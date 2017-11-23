@@ -4,12 +4,78 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/style-cadastro.css">
         <title></title>
     </head>
 
     <body>
+        <nav class="white z-depth-2">
+            <a href="" class="brang-logo"><img src="img/logo1.png" class="responsive-img" width="150px"></a>
+        </nav>
+
+        <div class="row">
+            <div class="card-panel hoverable col l4 offset-l7">
+                <form>
+                    <div class="row">
+                        <div class="input-field col l6">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" required>
+                        </div>
+                        <div class="input-field col l6">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col l6">
+                            <input type="text" class="datepicker" placeholder="Data de nascimento">
+                        </div>
+                        <div class="input-field col l6">
+                            <label for="user-name">Nome de Usuário</label>
+                            <input type="text" id="user-name" required>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col l12">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col l12">
+                            <label for="confirm-email">Confirmação do e-mail</label>
+                            <input type="text" id="confirm-email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col l12">
+                            <label for="senha">Senha</label>
+                            <input type="password" id="senha" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col l12">
+                            <label for="confirm-senha">Confirmação da senha</label>
+                            <input type="password" id="confirm-senha" required>
+                        </div>
+                    </div>
+
+                    <div class="row negado">
+                        <a href="" class="col l5 ">Fazer login?</a>
+                        <button class="btn col l5 push-l2 blue lighten-2">Cadastrar</button>
+                    </div>
+                </form>
+          </div>
+        </div>
+        
 
     </body>
-
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js/materialize.min.js" charset="utf-8"></script>
+    <script src="js/cadastro.js" charset="utf-8"></script>
 </html>

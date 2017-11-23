@@ -1,0 +1,33 @@
+html{
+    background-image: url('../img/imagem-cadastro.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.row:not(.negado){
+    margin-bottom: 0 !important;
+}
+.card-panel{
+    border-radius: 15px;
+}
+
+.input-field{
+    margin-bottom: 0 !important;
+}
+
+input:focus {
+   border-bottom: 1px solid #4fc3f7  !important;
+   box-shadow: 0 1px 0 0 #4fc3f7  !important;
+ }
+
+a {
+    color: #64b5f6;
+    font-size: 20px;
+}
+
+.picker__date-display { background-color: #4fc3f7; }
+.picker__nav--prev:hover { background-color: inherit; }
+.picker__nav--next:hover { background-color: inherit; }
+.picker__today { color: #4fc3f7; }
+.picker__close { color: #4fc3f7; }
+.picker__day--infocus:hover { color: #0d47a1 ; }
+.picker__day.picker__day--infocus.picker__day--selected.picker__day--highlighted { background-color: #64b5f6 ; }
