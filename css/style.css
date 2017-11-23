@@ -29,3 +29,30 @@ i.right {
   right: 1.5em;
   cursor: pointer;
 }
+
+/*css da página de login*/
+html {
+    background: radial-gradient(rgba(100, 181, 246, .7), rgba(158, 158, 158, .3));
+}
+
+html, body, .login-box {
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-panel{
+    border-radius: 20px;
+}
+
+input:focus {
+   border-bottom: 1px solid #4fc3f7  !important;
+   box-shadow: 0 1px 0 0 #4fc3f7  !important;
+ }
+
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #64b5f6;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #2196f3;
+}
