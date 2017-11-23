@@ -72,3 +72,7 @@ input#search {
   bottom: 2em;
   right: 2em;
 }
+
+.aling-edit {
+  position: relative;
+}
