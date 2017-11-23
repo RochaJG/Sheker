@@ -41,6 +41,8 @@ input#search {
     flex-wrap: wrap;
     justify-content: center;
     width: 80%;
+    max-height: 40%;
+    overflow: auto;
     margin: 0 auto;
     padding: 20px;
 
@@ -61,4 +63,15 @@ input#search {
             background-color: lighten(#039BE5, 5%);
         }
     }
+}
+
+.menu-links {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.btn-float-down {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
 }
