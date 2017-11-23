@@ -66,3 +66,9 @@ input#search {
   text-align: center;
   font-size: 1.2em;
 }
+
+.btn-float-down {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
