@@ -30,32 +30,6 @@ i.right {
   cursor: pointer;
 }
 
-input#search {
-  padding-left: 60px;
-}
-
-.content-tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #BDBDBD;
-  border-radius: 20px;
-}
-
-.content-tags > span {
-  display: block;
-  cursor: pointer;
-  background: #039BE5;
-  color: #FAFAFA;
-  padding: 5px 10px;
-  margin: 5px;
-  border-radius: 50px;
-  font-weight: 300;
-}
-
-.content-tags > span:hover {
-  background-color: #06abfc;
+.parallax-title{
+  margin-top: 110px;
 }
