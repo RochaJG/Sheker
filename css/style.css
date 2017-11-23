@@ -29,3 +29,7 @@ i.right {
   right: 1.5em;
   cursor: pointer;
 }
+
+.parallax-title{
+  margin-top: 110px;
+}
