@@ -27,3 +27,7 @@ input:focus {
 button > a{
     color: white;
 }
+
+a{
+    color: #4fc3f7;
+}
