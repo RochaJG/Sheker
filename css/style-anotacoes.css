@@ -1,0 +1,11 @@
+.btn{
+    background-color: white !important;
+    color: #4fc3f7 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.tags > span{
+    background-color: #039BE5;
+     color: #FAFAFA;
+}
