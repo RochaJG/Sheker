@@ -23,3 +23,7 @@ input:focus {
 .switch label input[type=checkbox]:checked + .lever:after {
   background-color: #2196f3;
 }
+
+button > a{
+    color: white;
+}
