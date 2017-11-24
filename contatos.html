@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/style-contatos.css">
+        <title>Sheker - Contatos</title>
+    </head>
+
+    <body>
+        <nav class="white z-depth-3">
+            <div class="nav-wrapper">
+              <a class="right"><img src="img/logo1.png" width="200px"></a>
+              <ul class="">
+                  <li>
+                      <button data-activates="slide-out" class="button-collapse btn">
+                          <i class="material-icons">menu</i>
+                      </button>
+                  </li>
+                  <li><h4 class="blue-text text-lighten-1">Contatos</h4></li>
+              </ul>
+            </div>
+          </nav>
+
+        <ul class="side-nav blue lighten-4" id="slide-out">
+            <li>
+                <div class="user-view">
+                    <img src="img/rogerio1.jpg" class="circle col ">
+                    <span class="name">Rogerio Alguma Coisa</span>
+                    <span class="email">rogerio_coisa@alguma.com.br</span>
+                </div>
+            </li>
+
+            <li><a href="contatos.html"><i class="material-icons">contacts</i>Contatos</a></li>
+            <li><a href="anotacoes.html"><i class="material-icons">speaker_notes</i>Anotações</a></li>
+            <li><a href="configuracoes.html"><i class="material-icons">settings</i>Configurações</a></li>
+        </ul>
+
+
+        <main class="container">
+            <ul class="collection with-header">
+                <li class="collection-header"></li>
+                <li class="collection-item avatar">
+                    <img src="https://pbs.twimg.com/profile_images/735545580865355779/tEhD6yTW_400x400.jpg"
+                    alt="João das Neves" class="circle responsive-img">
+                    <span class="title">João das Neves</span>
+                    <p><b>Fixo: </b>(91) 3454-2112</p>
+                    <p><b>E-mail: </b><a href="mailto:">neves.joao@got.com</a></p>
+                    <span class="secondary-content">
+                        <div class="tags">
+                            <span class="chip">Amigos</span>
+                            <span class="chip">Familia</span>
+                        </div>
+                    </span>
+                </li>
+
+                <li class="collection-item avatar">
+                    <img src="http://desejosdebeleza.com/wp-content/uploads/2014/06/ruivas-de-desenhos-dafne-blake-desejos-de-beleza.jpg"
+                    alt="Dafine Blake" class="circle responsive-img">
+                    <span class="title">Dafine Blake</span>
+                    <p><b>Celular: </b>(91) 98732-4110</p>
+                    <p><b>E-mail: </b><a href="mailto:">dafne@turmadoscooby.com</a></p>
+                    <span class="secondary-content">
+                        <div class="tags">
+                            <span class="chip">Amigos</span>
+                        </div>
+                    </span>
+                </li>
+
+                <li class="collection-item avatar">
+                    <img src="https://nerdist.com/wp-content/uploads/2017/02/voldemort-birds-615x333.jpg"
+                    alt="Tom Riddle (Voldemort)" class="circle responsive-img">
+                    <span class="title">Tom Riddle (Voldemort)</span>
+                    <p><b>E-mail: </b><a href="mailto:">voldemort@bruxosdomal.com</a></p>
+                    <span class="secondary-content">
+                        <div class="tags">
+                            <span class="chip">Faculdade</span>
+                        </div>
+                    </span>
+                </li>
+            </ul>
+        </main>
+        <div class="fixed-action-btn">
+            <a href="#modal1" class="btn-floating btn-large waves-effect waves-light light-blue modal-trigger">
+            <i class="large material-icons">add</i>
+            </a>
+        </div>
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Cadastrar Novo Contato</h4>
+              <div class="row">
+                  <div class="input-field col l6">
+                      <label for="nome">Nome</label>
+                      <input type="text" id="nome">
+                  </div>
+                  <div class="input-field col l6">
+                      <label for="sobrenome">Sobrenome</label>
+                      <input type="text" id="sobrenome">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="input-field col l6">
+                      <label for="fixo">Fixo</label>
+                      <input type="text" id="fixo">
+                  </div>
+                  <div class="input-field col l6">
+                      <label for="celular">Celular</label>
+                      <input type="text" id="celular">
+                  </div>
+                  <div class="row">
+                      <div class="input-field col l12">
+                          <label for="email">E-mail</label>
+                          <input type="text" id="email">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col l12 chips chips-placeholder">
+                          <label for="tags">Tags</label>
+                          <input type="text" id="tags">
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" onclick="sucessoCadastro();"
+              class="modal-action modal-close waves-effect waves-light btn-flat">Concluir</a>
+              <a class="modal-action modal-close waves-effect waves-red btn-flat">Cancelar</a>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="js\jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js\materialize.min.js" charset="utf-8"></script>
+    <script src="js\contatos.js" charset="utf-8"></script>
+</html>
