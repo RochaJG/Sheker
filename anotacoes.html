@@ -41,11 +41,13 @@
             <li><a href="login.html"><i class="material-icons">exit_to_app</i>Sair</a></li>
 
         </ul>
+
         <div class="fixed-action-btn">
-            <a href="" class="btn-floating btn-large waves-effect waves-light light-blue">
+            <a href="#modal1" class="btn-floating btn-large waves-effect waves-light light-blue modal-trigger">
             <i class="large material-icons">add</i>
             </a>
         </div>
+
 
         <main class="">
             <div class="row" style="display: inline-table;">
@@ -168,6 +170,41 @@
 
             </div>
         </main>
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Nova Anotação</h4>
+              <div class="row">
+                  <div class="input-field">
+                      <label for="titulo">Título</label>
+                      <input type="text" id="titulo">
+                  </div>
+              </div>
+              <div class="row">
+                    <p>
+                        <input class="with-gap" name="tipo" type="radio" id="anotacao"  />
+                        <label for="anotacao">Anotação</label>
+
+                        <input class="with-gap" name="tipo" type="radio" id="lembrete"  />
+                        <label for="lembrete">Lembrete</label>
+
+                        <input class="with-gap" name="tipo" type="radio" id="lista"  />
+                        <label for="lista">Lista De Tarefas</label>
+                    </p>
+              </div>
+              <div class="row">
+                  <div class="input-field">
+                      <label for="conteudo">Conteúdo</label>
+                      <textarea  class="materialize-textarea" id="conteudo" rows="8" cols="80"></textarea>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Cancelar</a>
+              <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">Concluir</a>
+
+            </div>
+        </div>
 
     </body>
 
