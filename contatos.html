@@ -41,7 +41,6 @@
             <li><a href="login.html"><i class="material-icons">exit_to_app</i>Sair</a></li>
         </ul>
 
-
         <main class="container">
             <ul class="collection with-header">
                 <li class="collection-header"></li>
@@ -92,45 +91,62 @@
         </div>
 
         <div id="modal1" class="modal">
-            <div class="modal-content">
-              <h4>Novo Contato</h4>
-              <div class="row">
-                  <div class="input-field col l6">
-                      <label for="nome">Nome</label>
-                      <input type="text" id="nome">
-                  </div>
-                  <div class="input-field col l6">
-                      <label for="sobrenome">Sobrenome</label>
-                      <input type="text" id="sobrenome">
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="input-field col l6">
-                      <label for="fixo">Fixo</label>
-                      <input type="text" id="fixo">
-                  </div>
-                  <div class="input-field col l6">
-                      <label for="celular">Celular</label>
-                      <input type="text" id="celular">
-                  </div>
-                  <div class="row">
-                      <div class="input-field col l12">
-                          <label for="email">E-mail</label>
-                          <input type="text" id="email">
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="input-field col l12 chips chips-placeholder">
-                          <label for="tags">Tags</label>
-                          <input type="text" id="tags">
-                      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <a class="modal-action modal-close waves-effect waves-red btn-flat">Cancelar</a>
-              <a href="#!" onclick="sucessoCadastro();"class="modal-action modal-close waves-effect waves-light btn-flat">Concluir</a>
-            </div>
+            <form class="modal-content">
+                <h4>Novo Contato</h4>
+
+                <div class="row">
+                    <div class="input-field col l6">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <div class="input-field col l6">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col l6">
+                        <label for="fixo">Fixo</label>
+                        <input type="text" id="fixo">
+                    </div>
+                    <div class="input-field col l6">
+                        <label for="celular">Celular</label>
+                        <input type="text" id="celular">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l12">
+                      <label for="email">E-mail</label>
+                      <input type="text" id="email">
+                    </div>
+                </div>
+                 <div class="file-field input-field">
+                     <div class="btn blue lighten-2">
+                        <span>Foto</span>
+                        <input type="file">
+                     </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l12 chips chips-placeholder">
+                        <label for="tags">Tags</label>
+                        <input type="text" id="tags">
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="reset"
+                    class="btn waves-effect waves-red col l5 grey modal-close">
+                        Cancelar
+                    </button>
+                        <button type="reset" onclick="sucessoCadastro();"
+                        class="btn waves-effect waves-light col l4 push-l3 blue lighten-2 modal-close">
+                            Concluir
+                        </button>
+                </div>
+          </form>
         </div>
 
     </body>

@@ -20,6 +20,7 @@ $(document).ready(function(){
       $('.chip').addClass('gray');
 });
 
+
 function sucessoCadastro(){
     Materialize.toast('Novo contato adicionado!', 4000, 'rounded')
 }
