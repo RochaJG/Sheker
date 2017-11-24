@@ -24,6 +24,11 @@ a {
     font-size: 20px;
 }
 
+button > a{
+    color: white;
+    font-size: 15px;
+}
+
 .picker__date-display { background-color: #4fc3f7; }
 .picker__nav--prev:hover { background-color: inherit; }
 .picker__nav--next:hover { background-color: inherit; }
