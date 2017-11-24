@@ -24,7 +24,7 @@ a {
     font-size: 20px;
 }
 
-button > a{
+.btn > a{
     color: white;
     font-size: 15px;
 }
