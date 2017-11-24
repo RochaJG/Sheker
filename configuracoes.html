@@ -30,6 +30,7 @@
             <li>
                 <div class="user-view">
                     <img src="img/rogerio1.jpg" class="circle col ">
+                    <a href="#modal-foto" class="modal-trigger">Alterar foto</a>
                     <span class="name ">Rogerio Alguma Coisa</span>
                     <span class="email">rogerio_coisa@alguma.com.br</span>
                 </div>
@@ -40,6 +41,34 @@
             <li><a href="configuracoes.html"><i class="material-icons">settings</i>Configurações</a></li>
             <li><a href="login.html"><i class="material-icons">exit_to_app</i>Sair</a></li>
         </ul>
+
+        <div id="modal-foto" class="modal">
+           <div class="modal-content">
+             <img src="https://icon-icons.com/icons2/1141/PNG/512/1486395884-account_80606.png"
+             class="circle responsive-img" width="150px">
+             <div class="file-field input-field">
+                 <div class="btn blue lighten-2">
+                    <span>Foto</span>
+                    <input type="file">
+                 </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path" type="text">
+                </div>
+            </div>
+           </div>
+           <div class="modal-footer">
+               <div class="row">
+                   <button type="reset"
+                   class="btn waves-effect waves-red col l5 push-l1 grey modal-close">
+                       Cancelar
+                   </button>
+                       <button type="reset" onclick="fotoTrocada();"
+                       class="btn waves-effect waves-light col l4 push-l2 blue lighten-2 modal-close">
+                           Concluir
+                       </button>
+               </div>
+           </div>
+       </div>
 
         <div class="container">
             <div class="row">

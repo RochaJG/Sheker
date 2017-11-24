@@ -28,3 +28,11 @@ function concluirPreferencias(){
 function cancelarPreferencias(){
       $('.collapsible').collapsible('close', 1);
 }
+
+
+
+$('.modal').modal();
+
+function fotoTrocada(){
+    Materialize.toast('Foto Trocada com sucesso', 4000, 'rounded')
+}

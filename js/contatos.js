@@ -24,3 +24,7 @@ $(document).ready(function(){
 function sucessoCadastro(){
     Materialize.toast('Novo contato adicionado!', 4000, 'rounded')
 }
+
+function fotoTrocada(){
+    Materialize.toast('Foto Trocada com sucesso', 4000, 'rounded')
+}
